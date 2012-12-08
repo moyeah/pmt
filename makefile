@@ -1,5 +1,6 @@
 SOURCES = pmt.c \
           dtk_window.c \
+          dtk_menu_bar.c \
           dtk_frame.c
 OBJS    = ${SOURCES:.c=.o}
 CFLAGS  = `pkg-config gtk+-3.0 libgda-4.0 --cflags`
